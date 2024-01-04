@@ -1,0 +1,22 @@
+#Github jordi
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+
+zone "centrecordinatiu.com" IN {
+    type slave;
+    file "db.centrecordinatiu.com";
+    masters { 10.18.152.66; };
+    allow-query { any; };
+};
+
+zone "seccio.centrecordinatiu.com" IN {
+    type slave;
+    file "db.seccio.centrecordinatiu.com";
+    masters { 10.18.152.66; };
+    allow-query { any; };
+};
