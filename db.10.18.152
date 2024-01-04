@@ -1,0 +1,16 @@
+#Github jordi 
+$TTL    86400
+@   IN  SOA     ns01.metgesesportius.com. admin.metgesesportius.com. (
+                  2008052002
+                  10800
+                  3600
+                  604800
+                  86400 )
+@   IN  NS      ns01.metgesesportius.com.
+@   IN  NS      ns02.metgesesportius.com.
+34  IN  PTR     est01.seccio.metgesesportius.com.
+35  IN  PTR     est02.seccio.metgesesportius.com.
+36  IN  PTR     est03.seccio.metgesesportius.com.
+37  IN  PTR     est04.seccio.metgesesportius.com.
+38  IN  PTR     est05.seccio.metgesesportius.com.
+39  IN  PTR     est06.seccio.metgesesportius.com.
